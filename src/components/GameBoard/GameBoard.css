@@ -1,0 +1,7 @@
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust minmax for card size */
+    gap: 15px;
+    padding: 20px;
+    justify-content: center;
+}
